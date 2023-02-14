@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'IRANSans';
+    src : local('IRANSans'),url(./IRANSans.ttf) format('truetype')
+  }
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 18px;
+    font-family: IRANSans;
+}
+.main{
+    display: inline-block;
+    width: 390px;
+    margin: 25px auto;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.cell{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    color:#dedede;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.info{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
